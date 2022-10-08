@@ -1,6 +1,8 @@
 <!DOCTYPE html>
+<!-- 모든 html문서의 시작 -->
 <html>
   <head>
+    <!-- 문서 정보 구성을 위한 head -->
     <meta charset="utf-8">
     <title>나의 첫 Symantic 페이지</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +10,8 @@
     <meta property="og:title" content="나의 첫 Symantic 페이지">
   </head>
   <body>
+    <!-- 사용자에게 보여질 정보를 정의하기 위한 body -->
+    <!-- 의미 정보 태그 header, nav, main, section, article, aside, footer -->
     <header>
       <!-- logo, nav, search -->
       <nav id="main-menu">
@@ -18,6 +22,8 @@
       </nav>
     </header>
     <main>
+      <!-- 문서에서 유일해야 하는 main 태그 -->
+      <!-- 내용 묶음 표현을 위한 section 태그(제목태그 필요) -->
       <section>
       <h1>기사의 메인 타이틀</h1>
       <p>Paragraph태그로 기사의 본문을 쓸 수 있습니다.</p>
@@ -28,6 +34,7 @@
       </section>
       <section class="faq">
         <h2>자주 묻는 질문</h2>
+        <!-- 아코디언 표현하기 위한 details, summary -->
         <details>
           <summary>Q. 어른폰은 언제 사야 하나요?</summary>
           <span>A. 당장이요</span>
@@ -37,6 +44,7 @@
           <span>A. 넵</span>
         </details>
       </section>
+      <!-- 정형데이터 표현을 위한 table -->
       <table>
         <caption>표1. 중간고사 성적표</caption>
         <thead>
@@ -65,10 +73,12 @@
     </main>
       <article>
         <h2>당신의 의견을 제출하세요</h2>
+        <!-- 사용자 입력 제출을 위한 form -->
         <form action="#" method="POST">
           <input type="text" id="opinion" name="opinion">
         </form>
       </article>
+      <!-- 반복 나열되는 컨텐츠 표현을 위한 article -->
       <article id="featured-posts">
         <article class="featured-post">
           <h2>은하 13 출시임박</h2>
@@ -77,6 +87,7 @@
           <h2>어른폰 14 싸게 사는 법</h2>
         </article>
       </article>
+      <!-- 사이드 메뉴, 컨텐츠 표현을 위한 aside -->
       <aside>
         <h2>Featured Comments</h2>
         <ul>
@@ -84,6 +95,7 @@
           <li>후속 기사가 기대됩니다.</li>
         </ul>
       </aside>
+      <!-- 부가정보, 사이트맵, 저작권 등을 표현하기 위한 footer -->
       <footer>
         <span>Copyrights 2020-2022 by kingwangzzang, ALL RIGHTS RESERVED.</span>
       </footer>
