@@ -1,0 +1,28 @@
+/* 
+ * NanumSquare for heading text
+ */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'NanumSquare', san-serif;
+  color: red;
+}
+
+/*
+ * 컬러 지정하는 법
+  1. Colorname: red
+  2. RGB code: rgb(255,0,0)
+  3. HEX code: #ff0000
+ */
+
+/* 
+ * Black Han Sans for paragraph
+ */
+
+p {
+  font-family: 'Black Han Sans', sans-serif;
+}
